@@ -20,9 +20,9 @@ describe('Age', () => {
       expect(age.venusConv()).toEqual((40.3, 14709.5, 353028));
     });
 
-    // test('should convert earth properties to mars with method', () => {
-    //   expect(age.marsConv()).toEqual((15.6, 5694, 136656));
-    // });
+    test('should convert earth properties to mars with method', () => {
+      expect(age.marsConv()).toEqual((122.2, 44603, 1070472));
+    });
 
     // test('should convert earth properties to jupiter with method', () => {
     //   expect(age.jupiterConv()).toEqual((15.6, 5694, 136656));
