@@ -34,7 +34,7 @@ describe('Age', () => {
 
     test('should return the number of expected years on Mercury with method', () => {
       age = new Age(65, 23725, 569400, 100);
-      expect(age.lifeEMercury()).toEqual(8.4);
+      expect(age.lifeExMercury()).toEqual(8.4);
     });
 
     // test('should return the number over expected years on Murcury with method', () => {
