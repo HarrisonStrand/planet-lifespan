@@ -29,6 +29,6 @@ describe('Age', () => {
     });
 
     test('should return the number of expected years with method', () => {
-      expect(age.lifeEEarth()).toEqual(35);
+      expect(age.lifeExEarth()).toEqual(35);
     });
 });
