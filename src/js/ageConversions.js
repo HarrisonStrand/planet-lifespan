@@ -13,7 +13,7 @@ export default class Age {
     return (this.years *= .62), (this.days *= .62), (this.hours *= .62);
   }
 
-  marConv() {
+  marsConv() {
     return (this.years *= 1.88), (this.days *= 1.88), (this.hours *= 1.88);
   }
 
