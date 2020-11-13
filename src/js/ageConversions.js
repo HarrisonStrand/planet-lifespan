@@ -30,7 +30,7 @@ export default class Age {
     return (this.lifeEx - this.years) * .24;
   }
 
-  // lifeOverMercury() {
-  //   return (this.years - this.lifeEx) * .24;
-  // }
+  lifeOverMercury() {
+    return (this.years - this.lifeEx) * .24;
+  }
 }
