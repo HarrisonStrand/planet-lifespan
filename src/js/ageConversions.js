@@ -21,4 +21,13 @@ export default class Age {
     return (this.years *= 11.86), (this.days *= 11.86), (this.hours *= 11.86);
   }
 
+  lifeExMercury() {
+    if(this.years < 100) {
+      return (100 - this.years);
+    } else if(this.years >= 100) {
+      return (this.years - 100);
+    } else {
+      return this.years;
+    }
+  }
 }

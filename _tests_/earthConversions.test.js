@@ -6,7 +6,7 @@ describe('Age', () => {
   beforeEach(() => {
   age = new Age(65, 23725, 569400);
 });
-  test('should create a new object Earth with properties', () => {
+  test('should create a new object Age with properties', () => {
       expect(age.years).toEqual(65);
       expect(age.days).toEqual(23725);
       expect(age.hours).toEqual(569400);
@@ -27,4 +27,20 @@ describe('Age', () => {
     test('should convert earth properties to jupiter with method', () => {
       expect(age.jupiterConv()).toEqual((770.9, 281378.5, 6753084));
     });
+
+    test('should return the number of expected years on mercury with method', () => {
+      expect(age.lifeMercury()).toEqual(35);
+    });
+
+    // test('should return the number of expected years on venus with method', () => {
+
+    // });
+
+    // test('should return the number of expected years on mars with method', () => {
+
+    // });
+
+    // test('should return the number of expected years on jupiter with method', () => {
+
+    // });
 });
