@@ -50,9 +50,9 @@ export default class Age {
     return (this.years - this.lifeEx) * 1.88;
   }
 
-  // lifeExJupiter() {
-  //   return (this.lifeEx - this.years) * 11.86;
-  // }
+  lifeExJupiter() {
+    return Math.round((this.lifeEx - this.years) * 11.86);
+  }
 
   // lifeOverJupiter() {
   //   return (this.years - this.lifeEx) * 11.86;
