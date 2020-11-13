@@ -45,7 +45,7 @@ describe('Age', () => {
     });
 
     test('should return the number of expected years on Venus with method', () => {
-      expect(age.lifeExVenus()).toEqual(21.);
+      expect(age.lifeExVenus()).toEqual(21.7);
     });
 
     // test('should return the number over expected years on Venus with method', () => {
