@@ -6,7 +6,7 @@ export default class Earth {
   }
 
   mercuryConv() {
-    return this.years *= 24;
+    return (this.years *= .24), (this.days *= .24), (this.hours *= .24);
   }
 
 }

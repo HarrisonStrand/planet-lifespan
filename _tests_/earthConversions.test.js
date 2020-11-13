@@ -13,8 +13,6 @@ describe('Earth', () => {
     });
 
     test('should convert earth properties to mercury with method', () => {
-      expect(earth.mercuryConv()).toEqual(24);
-      // expect(earth.mercuryConv).toEqual(87.6);
-      // expect(earth.mercuryConv).toEqual(2102.4);
+      expect(earth.mecuryConv().toEqual((.24, 87.6, 2102.4));
     });
 });
