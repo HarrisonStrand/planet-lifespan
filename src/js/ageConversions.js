@@ -42,11 +42,19 @@ export default class Age {
     return (this.years - this.lifeEx) * .62;
   }
 
-  // lifeExVenus() {
-  //   return (this.lifeEx - this.years) * .62;
+  lifeExMars() {
+    return (this.lifeEx - this.years) * 1.88;
+  }
+
+  // lifeOverMars() {
+  //   return (this.years - this.lifeEx) * 1.88;
   // }
 
-  // lifeOverVenus() {
-  //   return (this.years - this.lifeEx) * .62;
+  // lifeExJupiter() {
+  //   return (this.lifeEx - this.years) * 11.86;
+  // }
+
+  // lifeOverJupiter() {
+  //   return (this.years - this.lifeEx) * 11.86;
   // }
 }
