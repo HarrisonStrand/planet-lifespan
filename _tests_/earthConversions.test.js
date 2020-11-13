@@ -43,4 +43,31 @@ describe('Age', () => {
       age = new Age(102, 37230, 893520, 100);
       expect(age.lifeOverMercury()).toEqual(.48);
     });
+
+    test('should return the number of expected years on Venus with method', () => {
+      expect(age.lifeExVenus()).toEqual(21.);
+    });
+
+    // test('should return the number over expected years on Venus with method', () => {
+    //   age = new Age(102, 37230, 893520, 100);
+    //   expect(age.lifeOverVenus()).toEqual(.48);
+    // });
+
+    // test('should return the number of expected years on Mercury with method', () => {
+    //   expect(age.lifeExMercury()).toEqual(8.4);
+    // });
+
+    // test('should return the number over expected years on Mercury with method', () => {
+    //   age = new Age(102, 37230, 893520, 100);
+    //   expect(age.lifeOverMercury()).toEqual(.48);
+    // });
+
+    // test('should return the number of expected years on Mercury with method', () => {
+    //   expect(age.lifeExMercury()).toEqual(8.4);
+    // });
+
+    // test('should return the number over expected years on Mercury with method', () => {
+    //   age = new Age(102, 37230, 893520, 100);
+    //   expect(age.lifeOverMercury()).toEqual(.48);
+    // });
 });

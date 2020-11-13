@@ -33,4 +33,12 @@ export default class Age {
   lifeOverMercury() {
     return (this.years - this.lifeEx) * .24;
   }
+
+  lifeExVenus() {
+    return (this.lifeEx - this.years) * .62;
+  }
+
+  // lifeOverVenus() {
+  //   return (this.years - this.lifeEx) * .24;
+  // }
 }

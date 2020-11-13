@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1605304914173" clover="3.2.0">
-  <project timestamp="1605304914173" name="All files">
-    <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="19" coveredelements="19" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
+<coverage generated="1605305344872" clover="3.2.0">
+  <project timestamp="1605305344873" name="All files">
+    <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9" elements="21" coveredelements="21" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
     <file name="ageConversions.js" path="/Users/STRAND/Desktop/planet-lifespan/src/js/ageConversions.js">
-      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
-      <line num="3" count="10" type="stmt"/>
-      <line num="4" count="10" type="stmt"/>
-      <line num="5" count="10" type="stmt"/>
-      <line num="6" count="10" type="stmt"/>
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+      <line num="3" count="46" type="stmt"/>
+      <line num="4" count="46" type="stmt"/>
+      <line num="5" count="46" type="stmt"/>
+      <line num="6" count="46" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
       <line num="14" count="1" type="stmt"/>
       <line num="18" count="1" type="stmt"/>
@@ -15,6 +15,7 @@
       <line num="26" count="1" type="stmt"/>
       <line num="30" count="1" type="stmt"/>
       <line num="34" count="1" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
