@@ -66,8 +66,8 @@ describe('Age', () => {
       expect(age.lifeExJupiter()).toEqual(415);
     });
 
-    // test('should return the number over expected years on Jupiter with method', () => {
-    //   age = new Age(102, 37230, 893520, 100);
-    //   expect(age.lifeOverJupiter()).toEqual();
-    // });
+    test('should return the number over expected years on Jupiter with method', () => {
+      age = new Age(102, 37230, 893520, 100);
+      expect(age.lifeOverJupiter()).toEqual(23.7);
+    });
 });
