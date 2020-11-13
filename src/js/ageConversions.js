@@ -1,8 +1,8 @@
-export default class Earth {
+export default class Age {
   constructor(years, days, hours) {
-    this.years = 1;
-    this.days = 365;
-    this.hours = 8760;
+    this.years = years;
+    this.days = days;
+    this.hours = hours;
   }
 
   mercuryConv() {

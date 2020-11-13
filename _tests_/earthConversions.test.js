@@ -1,18 +1,18 @@
-import Earth from "./../src/js/earthConversions.js";
+import Age from "../src/js/ageConversions.js";
 
 
-describe('Earth', () => {
-  let earth;
+describe('Age', () => {
+  let age;
   beforeEach(() => {
-  earth = new Earth(1, 365, 8760);
+  age = new Age(65, 23725, 569400);
 });
   test('should create a new object Earth with properties', () => {
-      expect(earth.years).toEqual(1);
-      expect(earth.days).toEqual(365);
-      expect(earth.hours).toEqual(8760);
+      expect(age.years).toEqual(65);
+      expect(age.days).toEqual(23725);
+      expect(age.hours).toEqual(569400);
     });
 
     test('should convert earth properties to mercury with method', () => {
-      expect(earth.mercuryConv()).toEqual((.24, 87.6, 2102.4));
+      expect(age.mercuryConv()).toEqual((15.6, 5694, 136656));
     });
 });
