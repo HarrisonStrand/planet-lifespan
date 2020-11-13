@@ -2,10 +2,13 @@ import Age from "../src/js/ageConversions.js";
 
 describe('Age', () => {
   let age;
+  let age2;
   beforeEach(() => {
   age = new Age(65, 23725, 569400, 100);
+  age2 = new Age(102, 37230, 893520, 100);
   afterEach(() => {
   age = new Age();
+  age2 = new Age();
   })
 });
   test('should create a new object Age with properties', () => {
@@ -39,8 +42,7 @@ describe('Age', () => {
     });
 
     test('should return the number over expected years on Mercury with method', () => {
-      age = new Age(102, 37230, 893520, 100);
-      expect(age.lifeOverMercury()).toEqual(.48);
+      expect(age2.lifeOverMercury()).toEqual(.48);
     });
 
     test('should return the number of expected years on Venus with method', () => {
@@ -48,8 +50,7 @@ describe('Age', () => {
     });
 
     test('should return the number over expected years on Venus with method', () => {
-      age = new Age(102, 37230, 893520, 100);
-      expect(age.lifeOverVenus()).toEqual(1.24);
+      expect(age2.lifeOverVenus()).toEqual(1.24);
     });
 
     test('should return the number of expected years on Mars with method', () => {
@@ -57,8 +58,7 @@ describe('Age', () => {
     });
 
     test('should return the number over expected years on Mars with method', () => {
-      age = new Age(102, 37230, 893520, 100);
-      expect(age.lifeOverMars()).toEqual(3.76);
+      expect(age2.lifeOverMars()).toEqual(3.76);
     });
 
     test('should return the number of expected years on Jupiter with method', () => {
@@ -66,8 +66,7 @@ describe('Age', () => {
     });
 
     test('should return the number over expected years on Jupiter with method', () => {
-      age = new Age(102, 37230, 893520, 100);
-      expect(age.lifeOverJupiter()).toEqual(23.72);
+      expect(age2.lifeOverJupiter()).toEqual(23.72);
     });
 
     test('should subtract 10 years of expected years of life with method', () => {
