@@ -1,8 +1,11 @@
+const mercuryYears = .24;
+
 export default class Age {
-  constructor(years, days, hours) {
+  constructor(years, days, hours, lifeEx) {
     this.years = years;
     this.days = days;
     this.hours = hours;
+    this.lifeEx = lifeEx;
   }
 
   mercuryConv() {
@@ -21,13 +24,7 @@ export default class Age {
     return (this.years *= 11.86), (this.days *= 11.86), (this.hours *= 11.86);
   }
 
-  lifeExMercury() {
-    if(this.years < 100) {
-      return (100 - this.years);
-    } else if(this.years >= 100) {
-      return (this.years - 100);
-    } else {
-      return this.years;
-    }
+  lifeExEarth() {
+    return this.lifeEx - this.years;
   }
 }

@@ -4,7 +4,7 @@ import Age from "../src/js/ageConversions.js";
 describe('Age', () => {
   let age;
   beforeEach(() => {
-  age = new Age(65, 23725, 569400);
+  age = new Age(65, 23725, 569400, 100);
 });
   test('should create a new object Age with properties', () => {
       expect(age.years).toEqual(65);
@@ -28,19 +28,7 @@ describe('Age', () => {
       expect(age.jupiterConv()).toEqual((770.9, 281378.5, 6753084));
     });
 
-    test('should return the number of expected years on mercury with method', () => {
-      expect(age.lifeMercury()).toEqual(35);
+    test('should return the number of expected years with method', () => {
+      expect(age.lifeEEarth()).toEqual(35);
     });
-
-    // test('should return the number of expected years on venus with method', () => {
-
-    // });
-
-    // test('should return the number of expected years on mars with method', () => {
-
-    // });
-
-    // test('should return the number of expected years on jupiter with method', () => {
-
-    // });
 });
