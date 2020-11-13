@@ -46,9 +46,9 @@ export default class Age {
     return (this.lifeEx - this.years) * 1.88;
   }
 
-  // lifeOverMars() {
-  //   return (this.years - this.lifeEx) * 1.88;
-  // }
+  lifeOverMars() {
+    return (this.years - this.lifeEx) * 1.88;
+  }
 
   // lifeExJupiter() {
   //   return (this.lifeEx - this.years) * 11.86;
