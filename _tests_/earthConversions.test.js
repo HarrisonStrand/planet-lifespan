@@ -5,6 +5,9 @@ describe('Age', () => {
   let age;
   beforeEach(() => {
   age = new Age(65, 23725, 569400, 100);
+  afterEach(() => {
+  age = new Age();
+  })
 });
   test('should create a new object Age with properties', () => {
       expect(age.years).toEqual(65);
@@ -33,7 +36,6 @@ describe('Age', () => {
     });
 
     test('should return the number of expected years on Mercury with method', () => {
-      age = new Age(65, 23725, 569400, 100);
       expect(age.lifeExMercury()).toEqual(8.4);
     });
 
