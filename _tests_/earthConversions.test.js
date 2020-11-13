@@ -54,7 +54,7 @@ describe('Age', () => {
     });
 
     test('should return the number of expected years on Mars with method', () => {
-      expect(age.lifeExMars()).toEqual(65.);
+      expect(age.lifeExMars()).toEqual(65.8);
     });
 
     // test('should return the number over expected years on Mars with method', () => {
