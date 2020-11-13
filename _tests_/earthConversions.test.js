@@ -59,7 +59,7 @@ describe('Age', () => {
 
     test('should return the number over expected years on Mars with method', () => {
       age = new Age(102, 37230, 893520, 100);
-      expect(age.lifeOverMars()).toEqual(3.7);
+      expect(age.lifeOverMars()).toEqual(3.76);
     });
 
     // test('should return the number of expected years on Jupiter with method', () => {
