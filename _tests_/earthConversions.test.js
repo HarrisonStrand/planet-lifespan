@@ -15,4 +15,16 @@ describe('Age', () => {
     test('should convert earth properties to mercury with method', () => {
       expect(age.mercuryConv()).toEqual((15.6, 5694, 136656));
     });
+
+    test('should convert earth properties to venus with method', () => {
+      expect(age.venusConv()).toEqual((40.3, 14709.5, 35302));
+    });
+
+    // test('should convert earth properties to mars with method', () => {
+    //   expect(age.marsConv()).toEqual((15.6, 5694, 136656));
+    // });
+
+    // test('should convert earth properties to jupiter with method', () => {
+    //   expect(age.jupiterConv()).toEqual((15.6, 5694, 136656));
+    // });
 });
