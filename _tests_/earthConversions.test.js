@@ -70,4 +70,8 @@ describe('Age', () => {
       age = new Age(102, 37230, 893520, 100);
       expect(age.lifeOverJupiter()).toEqual(23.72);
     });
+
+    test('should subtract 10 years of expected years of life with method', () => {
+      expect(age.smokingEx()).toEqual(90);
+    });
 });

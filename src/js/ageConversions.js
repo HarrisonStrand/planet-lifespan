@@ -57,4 +57,8 @@ export default class Age {
   lifeOverJupiter() {
     return (this.years - this.lifeEx) * 11.86;
   }
+
+  smokingEx() {
+    return (this.lifeEx) -10;
+  }
 }

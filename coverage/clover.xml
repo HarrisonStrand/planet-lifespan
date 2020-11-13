@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1605307373484" clover="3.2.0">
-  <project timestamp="1605307373484" name="All files">
+<coverage generated="1605307429717" clover="3.2.0">
+  <project timestamp="1605307429717" name="All files">
     <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14" elements="31" coveredelements="31" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
     <file name="ageConversions.js" path="/Users/STRAND/Desktop/planet-lifespan/src/js/ageConversions.js">
       <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14"/>

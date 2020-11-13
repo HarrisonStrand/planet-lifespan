@@ -25,18 +25,20 @@ No known bugs.
 #### Contact me at: _[harrisonstrand@gmailcom](harrisonstrand@gmail.com)_
 
 ## Specs:
-| Describe:  | Input | Pseudo | Output |
-| :-----------------------------------| :------------- | :------------- | :------------- |
-| earthYears( ) | | |
-| Construct an object containing solar year by days on Earth. | Earth(Year: 1, Days: 365, Hours: 8760) | new Earth {1, 365, 8760} |
-| MercuryConv( ) | Convert solar year by days on Earth to solar year by days on Mercury. | mercConv = 365 * .24 | 87.6 |
-| VenusConv( ) | Method will convert solar year by days on Earth to solar year by days on Venus. | VenusConv = 365 * .62 | 226.3 |
-| MarsConv( ) | Method will convert solar year by days on Earth to solar year by days on Mars. | MarsConv = 365 * 1.88 | 686.2 |
-| JupiterConv( ) | Method will convert solar year by days on Earth to solar year by days on Jupiter. | JupiterConv = 365 * 11.86 | 4328.9 |
+| Describe:  | Input | Output |
+| :-----------------------------------| :------------- | :------------- |
+| Age( ) | | |
+| Construct an object containing age of user by years/days/hours/life expectancy. | Age(years: 65, days: 23725, hours: 569400 lifeEx:100) | new Age {65, 23725, 569400, 100} |
+| MercuryConv( ) | Method will convert age on Earth to age on Mercury. | mercConv = 65 * .24 |
+| VenusConv( ) | Method will convert age on Earth to age on Venus. | VenusConv = 65 * .62 |
+| MarsConv( ) | Method will convert age on Earth to age on Mars. | MarsConv = 65 * 1.88 |
+| JupiterConv( ) | Method will convert age on Earth to age on Jupiter. | JupiterConv = 365 * 11.86 |
+| lifeEx ( ) | Method will tell how many years until life expectancy on planets | age(65) |
+| liveOver ( ) | Method will tell how many years after life expectancy on planets | age(102) |
+| smokingEx( ) | Method will subtract 10 years from life expectancy | age(100-10) |
 | inputAge( ) | | |
 | Gather input of user's name to add to conversion methods. | Age(65) | 65 |
-| ageUntilExpectancy ( ) | Method will tell how many years until life expectancy on planets | age(65) | 35 years until expectancy |
-| ageOverExpectancy ( ) | Method will tell how many years after life expectancy on planets | age(102) | 2 years over expectancy |
+| Gather input of user's habits to add to life expectancy methods. | Smoke?(yes) | 90 |
 
 ## Technologies Used
 Visual Studio Code
