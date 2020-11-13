@@ -25,6 +25,6 @@ describe('Age', () => {
     });
 
     test('should convert earth properties to jupiter with method', () => {
-      expect(age.jupiteConv()).toEqual((770.9, 281378.5, 6753084));
+      expect(age.jupiterConv()).toEqual((770.9, 281378.5, 6753084));
     });
 });
