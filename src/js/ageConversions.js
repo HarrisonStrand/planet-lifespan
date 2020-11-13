@@ -23,11 +23,11 @@ export default class Age {
   }
 
   lifeExEarth() {
-    return this.lifeEx - this.years;
+    return Math.round(this.lifeEx - this.years);
   }
 
   lifeExMercury() {
-    return (this.lifeEx - this.years) * .24;
+    return Math.round((this.lifeEx - this.years) * .24);
   }
 
   lifeOverMercury() {
@@ -35,7 +35,7 @@ export default class Age {
   }
 
   lifeExVenus() {
-    return (this.lifeEx - this.years) * .62;
+    return Math.round((this.lifeEx - this.years) * .62);
   }
 
   lifeOverVenus() {
@@ -43,7 +43,7 @@ export default class Age {
   }
 
   lifeExMars() {
-    return (this.lifeEx - this.years) * 1.88;
+    return Math.round((this.lifeEx - this.years) * 1.88);
   }
 
   lifeOverMars() {

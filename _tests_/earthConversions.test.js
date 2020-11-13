@@ -36,7 +36,7 @@ describe('Age', () => {
     });
 
     test('should return the number of expected years on Mercury with method', () => {
-      expect(age.lifeExMercury()).toEqual(8.4);
+      expect(age.lifeExMercury()).toEqual(8);
     });
 
     test('should return the number over expected years on Mercury with method', () => {
@@ -45,7 +45,7 @@ describe('Age', () => {
     });
 
     test('should return the number of expected years on Venus with method', () => {
-      expect(age.lifeExVenus()).toEqual(21.7);
+      expect(age.lifeExVenus()).toEqual(22);
     });
 
     test('should return the number over expected years on Venus with method', () => {
@@ -54,7 +54,7 @@ describe('Age', () => {
     });
 
     test('should return the number of expected years on Mars with method', () => {
-      expect(age.lifeExMars()).toEqual(65.8);
+      expect(age.lifeExMars()).toEqual(66);
     });
 
     test('should return the number over expected years on Mars with method', () => {
