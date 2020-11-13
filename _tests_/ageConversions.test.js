@@ -1,6 +1,5 @@
 import Age from "../src/js/ageConversions.js";
 
-
 describe('Age', () => {
   let age;
   beforeEach(() => {
