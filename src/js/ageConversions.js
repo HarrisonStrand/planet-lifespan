@@ -17,8 +17,8 @@ export default class Age {
     return (this.years *= 1.88), (this.days *= 1.88), (this.hours *= 1.88);
   }
 
-  // mercuryConv() {
-  //   return (this.years *= .24), (this.days *= .24), (this.hours *= .24);
-  // }
+  jupiterConv() {
+    return (this.years *= 11.86), (this.days *= 11.86), (this.hours *= 11.86);
+  }
 
 }

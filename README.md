@@ -32,7 +32,7 @@ No known bugs.
 | MercuryConv( ) | Convert solar year by days on Earth to solar year by days on Mercury. | mercConv = 365 * .24 | 87.6 |
 | VenusConv( ) | Method will convert solar year by days on Earth to solar year by days on Venus. | VenusConv = 365 * .62 | 226.3 |
 | MarsConv( ) | Method will convert solar year by days on Earth to solar year by days on Mars. | MarsConv = 365 * 1.88 | 686.2 |
-| JupiterConv | Method will convert solar year by days on Earth to solar year by days on Jupiter. | JupiterConv = 365 * 11.86 | 4328.9 |
+| JupiterConv( ) | Method will convert solar year by days on Earth to solar year by days on Jupiter. | JupiterConv = 365 * 11.86 | 4328.9 |
 | inputAge( ) | | |
 | Gather input of user's name to add to conversion methods. | Age(65) | 65 |
 | ageUntilExpectancy ( ) | Method will tell how many years until life expectancy on planets | age(65) | 35 years until expectancy |
