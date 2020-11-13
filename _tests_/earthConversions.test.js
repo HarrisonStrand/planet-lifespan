@@ -28,7 +28,11 @@ describe('Age', () => {
       expect(age.jupiterConv()).toEqual((770.9, 281378.5, 6753084));
     });
 
-    test('should return the number of expected years with method', () => {
+    test('should return the number of expected years on Earth with method', () => {
       expect(age.lifeExEarth()).toEqual(35);
+    });
+
+    test('should return the number of expected years on Mercury with method', () => {
+      expect(age.lifeExMercur()).toEqual(8.4);
     });
 });

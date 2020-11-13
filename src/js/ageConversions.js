@@ -27,4 +27,8 @@ export default class Age {
   lifeExEarth() {
     return this.lifeEx - this.years;
   }
+
+  lifeExMercury() {
+    return (this.lifeEx - this.years) * mercuryYears;
+  }
 }
