@@ -1,5 +1,3 @@
-const mercuryYears = .24;
-
 export default class Age {
   constructor(years, days, hours, lifeEx) {
     this.years = years;
@@ -29,6 +27,10 @@ export default class Age {
   }
 
   lifeExMercury() {
-    return (this.lifeEx - this.years) * mercuryYears;
+    return (this.lifeEx - this.years) * .24;
   }
+
+  // lifeOverMercury() {
+  //   return (this.years - this.lifeEx) * .24;
+  // }
 }

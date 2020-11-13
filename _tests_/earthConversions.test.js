@@ -33,6 +33,17 @@ describe('Age', () => {
     });
 
     test('should return the number of expected years on Mercury with method', () => {
-      expect(age.lifeExMercury()).toEqual(8.4);
+      age = new Age(65, 23725, 569400, 100);
+      expect(age.lifeEMercury()).toEqual(8.4);
     });
+
+    // test('should return the number over expected years on Murcury with method', () => {
+    //   age = new Age(102, 37230, 893520, 100);
+    //   expect(age.lifeOverMercury()).toEqual(.48);
+    // });
+
+    // test('should return the number over expected years on Murcury with method', () => {
+    //   age = new Age(100, 36500, 876000);
+    //   expect(age.lifeExMercury()).toEqual(0);
+    // });
 });
