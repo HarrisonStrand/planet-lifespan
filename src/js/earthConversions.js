@@ -4,4 +4,9 @@ export default class Earth {
     this.days = 365;
     this.hours = 8760;
   }
+
+  mercuryConv() {
+    return this.years *= 24;
+  }
+
 }

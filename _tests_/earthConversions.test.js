@@ -11,4 +11,10 @@ describe('Earth', () => {
       expect(earth.days).toEqual(365);
       expect(earth.hours).toEqual(8760);
     });
+
+    test('should convert earth properties to mercury with method', () => {
+      expect(earth.mercurConv()).toEqual(24);
+      // expect(earth.mercuryConv).toEqual(87.6);
+      // expect(earth.mercuryConv).toEqual(2102.4);
+    });
 });
