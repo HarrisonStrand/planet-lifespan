@@ -38,7 +38,15 @@ export default class Age {
     return (this.lifeEx - this.years) * .62;
   }
 
+  lifeOverVenus() {
+    return (this.years - this.lifeEx) * .62;
+  }
+
+  lifeExVenus() {
+    return (this.lifeEx - this.years) * .62;
+  }
+
   // lifeOverVenus() {
-  //   return (this.years - this.lifeEx) * .24;
+  //   return (this.years - this.lifeEx) * .62;
   // }
 }
