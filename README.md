@@ -17,7 +17,7 @@
 https://github.com/HarrisonStrand/planet-lifespan.git' in the directory you would like to clone the repository.
 (b) Alternatively, click 'Download Zip' and open the file on your machine
 4. Navigate to your terminal and type: NMP INSTALL
-5. Open the index.html file to view the website, or use an IDE to view the code language.
+5. Open the index.html file on a live server to view the website, or use an IDE to view the code language.
 
 #### Known Bugs
 No known bugs.
