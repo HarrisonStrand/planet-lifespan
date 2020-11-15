@@ -1,5 +1,5 @@
-# Week One/Landing Page
-##### HTML, CSS, and Git/GitHub comprehension 10/15/20
+# Week Five/TDD
+##### HTML, CSS, Javascript, Webpack, Jest comprehension 11/13/20
 ### By Harrison Strand
 ## Description
 ---This project was designed to display my comprehension of the material in week five of Epicodus executing conversions for years on different planets. This project uses HTML, CSS, Javascript, Webpack, NPM with TDD workflow.
